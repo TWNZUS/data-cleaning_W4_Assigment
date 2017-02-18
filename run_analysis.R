@@ -64,7 +64,7 @@ colnames(Merged_dataset_mean_std)[2:80]<-levels(factor(features[features_mean_st
                       group_by(Activity,`Activity Label`,Subject )%>%
                       summarise_each(funs(mean), c(2:80) )
  
- write.table(Summarize_dataset, "Summarize_dataset.txt")
+ write.table(Summarize_dataset, "Summarize_dataset.txt", row.name=FALSE )
 
 
 
