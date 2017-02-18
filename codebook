@@ -1,0 +1,39 @@
+Codebook for run_analysis.R
+
+
+Varible Name:activity_labels
+Class:data.frame
+Description:A list of activity names users performed as part of the experiement. Values for this table are directly from activity_labels.txt. 
+
+Varible Name:features
+Class:data.frame
+Description:A list of measurements extracted as part of the experiment. Values for this table are directly from features.txt. For more details please see features_info.
+
+Varible Name:Merged_dataset
+Class:data.frame
+Description: This dataset includes merged data from X_test, Y_test, X_train, Y_train, subject_test and subject_train 
+
+Varible Name:Merged_dataset_mean_std
+Class:data.frame
+Description: This is a subset of the dataset Merged_dataset which only includes the following columns: Activity ID, Subject ID and all 
+             measurements on the mean and standard deviation for each measurement.
+
+Varible Name:features_mean_std_Index
+Class: integer vector
+Description:Index number from the features dataset for all measurements on the mean and standard deviation for each measurement.
+
+Varible Name:Summarize_dataset
+Class:data.frame
+Description:Base on the Merged_dataset_mean_std this dataset includes the average of each variable for each activity and each subject.
+
+Varible Name:Merged_X
+Class:data.frame
+Description:Merged data from "X_test.txt" and "X_train.txt"
+
+Varible Name:Merged_Y
+Class:data.frame
+Description:Merged data from "Y_test.txt" and "Y_train.txt"
+
+Varible Name:Merged_subject
+Class:data.frame
+Description:Merged data from "subject_test.txt" and "subject_train.txt"
